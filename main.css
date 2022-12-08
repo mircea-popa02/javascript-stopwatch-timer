@@ -1,0 +1,161 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+		Helvetica, Arial, "Lucida Grande", sans-serif;
+	height: 100%;
+	background-color: rgb(49, 49, 49);
+	text-align: center;
+}
+
+.wrapper {
+	color: #fff;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-size: 2vw;
+}
+
+#seconds,
+#tens {
+	font-size: 2em;
+}
+
+#stopwatch {
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-size: 3vw;
+	color: #fff;
+	margin-top: 3vh;
+}
+
+#btns {
+	display: flex;
+	justify-content: space-between;
+	width: 60vw;
+	height: 10vh;
+	top: 8%;
+	margin: auto;
+}
+
+/* .button {
+	border-width: 2px;
+	margin: auto;
+	width: 15vw;
+	height: 5vh;
+	border-radius: 2vw;
+	border-color: #9a9a9a;
+}
+
+.button:hover {
+	background-color: #9a9a9a;
+	color: #fff;
+}
+ */
+
+ .button {
+	width: 30vw;
+	height: 5vh;
+    color: #e9feff;
+    border: 1.5px solid #152137; 
+    background-color: #0242b9;
+    border-radius: 2vw;
+    font-size: 1rem;
+    text-align: center;
+    /* padding: 1.5%; */
+    transition: 0.3s;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+.button:hover {
+    background-color:#152136 ;
+    background-color: #28394e;
+    cursor: pointer;
+    border: 1.5px solid #152137; 
+}
+
+.button:active {
+    background-color: #152137;
+    border: 1.5px solid #152137; 
+}
+
+.button:focus {
+    background-color: #ffbf00;
+    border: 1.5px solid #152137;
+    color: #0b111c;
+}
+
+
+
+.night {
+	display: block;
+	color: black;
+}
+
+.day {
+	display: none;
+	color: white;
+}
+
+.wrapper {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 2vh;
+	margin-bottom: 3vh;
+}
+
+.toggle-btn {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+body.active {
+	background-color: rgb(234, 234, 234);
+}
+
+#seconds-counter {
+	margin-bottom: 2vh;
+	font-weight: 200;
+	font-size: 2vw;
+	margin-bottom: 5vh;
+}
+
+#countdown {
+	margin-top: 2vh;
+	color: white;
+	font-size: 2vw;
+	margin-bottom: 5vh;
+}
+
+.countdown-container {
+	margin-top: 4vh;
+	color: white;
+	font-size: 3vw;
+	font-weight: 700;
+}
+
+#line {
+	border: none;
+	border-top: 1px solid white;
+}
+
+#timer {
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-size: 3vw;
+	color: #fff;
+}
